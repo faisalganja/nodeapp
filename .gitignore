@@ -1,0 +1,32 @@
+# Ignore node_modules (dependencies are installed via package.json)
+node_modules
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore logs and debug files
+*.log
+npm-debug.log*
+
+# Ignore build artifacts
+dist
+build
+
+# Ignore IDE-specific files
+.vscode
+.idea
+
+# Ignore dependency directories
+jspm_packages
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore npm and yarn lockfiles (choose one depending on your package manager)
+# yarn.lock
+# package-lock.json
+
+# Ignore coverage reports (if using testing frameworks)
+coverage
