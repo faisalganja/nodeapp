@@ -1,6 +1,8 @@
 # Use an official Node.js runtime as the base image
 FROM node:18-alpine
 
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+
 
 # Set the working directory inside the container
 WORKDIR /app
